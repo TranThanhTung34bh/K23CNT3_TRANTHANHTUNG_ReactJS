@@ -13,8 +13,8 @@ console.log("c=",c);
 
 // object
 const person = {
-    name: "Văn Sơn",
-    age: 25,
+    name: "Thanh Tùng",
+    age: 20,
     city: "Hà Nội"
 };
 
