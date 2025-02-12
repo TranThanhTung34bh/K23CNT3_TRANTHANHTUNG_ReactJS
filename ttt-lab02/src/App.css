@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff; /* Màu nền xanh nhạt */
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+h1 {
+  color: #ff4500; /* Màu cam đậm */
+}
+
+h2 {
+  color: #008080; /* Xanh biển đậm */
+}
+
+p {
+  color: #333;
+  font-weight: bold;
+}
