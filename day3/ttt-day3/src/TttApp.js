@@ -1,17 +1,17 @@
-import TttjsxExpression from "./components/TttJsxExpression";
-import TttFunComp from "./components/TttFuncComp";
+import TttJsxExpression from "./components/TttJsxExpression";
+import TttFuncComp from "./components/TttFuncComp";
 import TttClassComp from "./components/TttClassComp";
 function TttApp() {
   return (
     <div className="container border mt-3 bg-white">
         <h1>React JS  lesson 3 - Trần Thanh Tùng</h1>
-
-        <TttjsxExpression />
+        <TttApp />
+        <TttJsxExpression />
         <hr/>
         {/*sử dụng function component*/}
-        <TttFunComp/>
+        <TttFuncComp />
         {/*sử dụng class components */}
-        <TttClassComp></TttClassComp>
+        <TttClassComp />
     </div>
   );
 }

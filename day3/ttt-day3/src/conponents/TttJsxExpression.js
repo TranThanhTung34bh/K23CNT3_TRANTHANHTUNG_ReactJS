@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function TttjsxExpression() {
+export default function TttJsxExpression() {
     // biến 
-    const name ="Lâm Đức Tài ";
+    const name ="Trần Thanh Tùng ";
     // biến đối tượng
     const user = {
-        firstname:"Đức",
-        lastname:"Tài"
+        firstname:"Tùng",
+        lastname:"Trần"
     }
     // hàm 
     const fullname=(user)=>{
