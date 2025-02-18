@@ -1,17 +1,18 @@
 import React from 'react'
 
-export default function TttJsxExpression() {
-    // biến 
-    const name ="Trần Thanh Tùng ";
+export default function TttJsxExpression(){
+    // biến
+    const name="Trần Thanh Tùng";
     // biến đối tượng
     const user = {
         firstname:"Tùng",
-        lastname:"Trần"
+        lastname:"TrầnTrần"
     }
     // hàm 
     const fullname=(user)=>{
         return user.firstname+ ' ' + user.lastname;
     }
+
     // element
     const element =(
         <div>
@@ -29,15 +30,15 @@ export default function TttJsxExpression() {
             return <h3>Welcome to Ft-NTU-K23CNT3</h3>
         }
     }
-  return (
-    <div>
+    return(
+        <div>
             <h1> Ttt - JSX Expression</h1>
             {/*sử dụng biến element*/}
             {element}
             <hr/>
             {sayWelcome()}
             <hr/>
-            {sayWelcome("Trịnh Trần Phương Tuấn ")}
+            {sayWelcome("hmmmm")}
         </div>
-  )
+    )
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TttClassComp extends Component{
+class TttClassComp extends Conponent{
     render() {
         return (
             <div>
