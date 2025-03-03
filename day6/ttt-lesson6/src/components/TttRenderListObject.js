@@ -5,7 +5,7 @@ class TttRenderListObject extends Component {
         super(props);
         this.state = {
             TttStudents :[
-                {TttId:1,TttName:"Trần Thanh Tùng", TttAge:46},
+                {TttId:1,TttName:"Trần Thanh Tùng", TttAge:20},
                 {TttId:2,TttName:"Nguyễn Quang A", TttAge:20},
                 {TttId:3,TttName:"Nguyễn Quang B", TttAge:22},
                 {TttId:4,TttName:"Nguyễn Quang C", TttAge:21},
