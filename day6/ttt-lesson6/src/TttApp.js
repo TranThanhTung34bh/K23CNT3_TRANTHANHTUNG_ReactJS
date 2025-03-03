@@ -4,6 +4,9 @@ import TttEventForm2 from './components/TttEventForm2';
 import TttEventForm3 from './components/TttEventForm3';
 import TttEventForm4 from './components/TttEventForm4';
 import TttEventForm5 from './components/TttEventForm5';
+import TttRenderCondition from './components/TttRenderCondition';
+import TttRenderArray from './components/TttRenderArray';
+import TttRenderListObject from './components/TttRenderListObject';
 
 class TttApp extends Component {
 
@@ -24,6 +27,11 @@ class TttApp extends Component {
           <TttEventForm3 />
           <TttEventForm4 />
           <TttEventForm5 onTttHandleSubmit={this.TttHandleSubmitForm}/>
+
+          <TttRenderCondition />
+          <TttRenderArray />
+
+          <TttRenderListObject />
       </div>
     );
   }
