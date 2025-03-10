@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const TttUseStateListObject = () => {
   const [students, setStudents] = useState([
-    { id: "SV001", name: "Trịnh Văn Chung", age: 45, class: "K23CNT1" },
+    { id: "SV001", name: "Trần Thanh Tùng", age: 20, class: "K23CNT3" },
     { id: "SV002", name: "Nguyễn Quang A22", age: 23, class: "K23CNT1" },
     { id: "SV003", name: "Nguyễn Quang B21", age: 21, class: "K23CNT1" },
     { id: "SV004", name: "Nguyễn Quang C23", age: 23, class: "K23CNT1" }
