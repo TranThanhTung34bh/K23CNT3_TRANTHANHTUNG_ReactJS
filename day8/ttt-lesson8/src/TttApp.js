@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import TttControl from "./components/TttControl";
 import TttStudentList from "./components/TttStudentList";
 import TttForm from "./components/TttForm";
@@ -8,7 +8,7 @@ class TttApp extends Component {
     super(props);
     this.state = {
       TttStudents:[
-        {TttId:"SV001",TttStudentName:"Trần Thanh Tùng",TttAge:20,TttGender:"Nam",TttBirthday:"25/05/1979",TttBirthPlace:"HN", TttAddress:"Tòa VCN, 25 Vũ Ngọc Phan"},
+        {TttId:"SV001",TttStudentName:"Trần Thanh Tùng",TttAge:20,TttGender:"Nam",TttBirthday:"30/05/2005",TttBirthPlace:"HN", TttAddress:"Hà Nội"},
         {TttId:"SV002",TttStudentName:"Chu Nguyên Chương",TttAge:188,TttGender:"Nữ",TttBirthday:"25/05/1179",TttBirthPlace:"HP", TttAddress:"Trung quốc"},
         {TttId:"SV003",TttStudentName:"Tần Thủy Hoàng",TttAge:55,TttGender:"Nam",TttBirthday:"25/05/1079",TttBirthPlace:"TpHCM", TttAddress:"Trung Quốc"},
         {TttId:"SV004",TttStudentName:"Hoàng Thùy Linh",TttAge:55,TttGender:"Nam",TttBirthday:"25/05/1079",TttBirthPlace:"TpHCM", TttAddress:"Hồ chí minh"},
