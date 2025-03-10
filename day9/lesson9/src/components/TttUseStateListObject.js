@@ -15,10 +15,10 @@ const TttUseStateListObject = () => {
         <thead>
           <tr>
             <th>STT</th>
-            <th>tvcID</th>
-            <th>tvcName</th>
-            <th>tvcAge</th>
-            <th>tvcClass</th>
+            <th>TttID</th>
+            <th>TttName</th>
+            <th>TttAge</th>
+            <th>TttClass</th>
             <th>Chức năng</th>
           </tr>
         </thead>
