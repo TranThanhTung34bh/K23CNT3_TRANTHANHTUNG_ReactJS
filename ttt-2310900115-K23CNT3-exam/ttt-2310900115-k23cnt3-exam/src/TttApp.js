@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TttProductList from "./components/TttProductList";
 import TttProductAdd from "./components/TttProductAdd";
 
-const App = () => {
+const TttApp = () => {
   const [products, setProducts] = useState([
     { pid: 1, pName: "Sản phẩm 1", pQuantity: 10, pPrice: 100000 },
     { pid: 2, pName: "Sản phẩm 2", pQuantity: 5, pPrice: 200000 },
@@ -36,4 +36,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default TttApp;
