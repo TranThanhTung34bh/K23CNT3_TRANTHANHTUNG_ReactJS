@@ -15,13 +15,24 @@ const App = () => {
     setProducts([...products, productWithId]);
     setNextId(nextId + 1); 
   };
+  const deleteProduct = (id) => {
+    const updatedProducts = products.filter((product) => product.pid !== id);
+    setProducts(updatedProducts);
+  };
 
+  // Sửa sản phẩm
+  const editProduct = (updatedProduct) => {
+    const updatedProducts = products.map((product) =>
+      product.pid === updatedProduct.pid ? updatedProduct : product
+    );
+    setProducts(updatedProducts);
+  };
   return (
     <div className="container">
       <h1>Quản lý sản phẩm</h1>
       <TttProductAdd addProduct={addProduct} />
-      <TttProductList products={products} />
-    </div>
+      <TttProductList products={products} deleteProduct={deleteProduct} editProduct={editProduct} />
+      </div>
   );
 };
 
