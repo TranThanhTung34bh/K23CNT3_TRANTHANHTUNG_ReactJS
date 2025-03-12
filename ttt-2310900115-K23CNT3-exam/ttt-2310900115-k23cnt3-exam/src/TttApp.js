@@ -8,14 +8,12 @@ const App = () => {
     { pid: 2, pName: "Sản phẩm 2", pQuantity: 5, pPrice: 200000 },
     { pid: 3, pName: "Sản phẩm 3", pQuantity: 8, pPrice: 150000 },
   ]);
-
-  // Xác định ID tiếp theo dựa trên sản phẩm cuối cùng
   const [nextId, setNextId] = useState(products.length ? products[products.length - 1].pid + 1 : 1);
 
   const addProduct = (newProduct) => {
     const productWithId = { ...newProduct, pid: nextId };
     setProducts([...products, productWithId]);
-    setNextId(nextId + 1); // Tăng ID lên 1
+    setNextId(nextId + 1); 
   };
 
   return (
